@@ -1,0 +1,110 @@
+:root
+{
+    --main-color: rgb(86, 88, 245);
+}
+
+*
+{
+    margin:0;
+    padding: 0;
+}
+
+#show
+{
+    padding: 30px 0px 120px 30px;
+    background-color:blue;
+    width: 420px;
+    height: 120px;
+}
+
+#param
+{
+    margin: 30px 30px;
+    width: 400px;
+    height: 250px;
+}
+
+h1
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+
+}
+h2
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    float: left;
+    margin-right: 10px;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+
+input[type=text]
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    float: left;
+    width: 330px;
+    height: 50px;
+    padding: 0px 16px;
+    margin: 0 8px 8px 0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 2px solid var(--main-color);
+    color: rgb(119, 109, 248);
+}
+
+.but
+{
+    float: left;
+    position: relative;
+    margin: 0 8px 8px 0;
+    font-family: 'RSubik', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: var(--main-color);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.2s;
+}    
+
+.but:hover
+{
+    border : 4px solid var(--main-color);
+    color: var(--main-color);
+    background-color: white;
+}
+
+#first .but
+{
+    width: 190px;
+}
+
+footer
+{
+    font-family: 'Rubik', sans-serif;
+    color: gray;
+    font-size: 14px;
+    width: 450px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+a:visited {
+    color: gray;
+  }
+  a:hover {
+    color: var(--main-color); 
+  }

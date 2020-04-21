@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Succes Counter</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/fdc2456db7.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div id="show">
+            <h1 id="title">Tittle</h1>
+            <h2 id="valueText">0</h2>
+            <h2 id="maxVal">/ 50</h2>
+        </div>
+        <div id="param">
+            <div id="first">
+                <button class="but" id="minus" type="button"><i class="fas fa-minus"></i></i></button>
+                <button class="but" id ="plus" type="button"><i class="fas fa-plus"></i></button>
+            </div>           
+            <div>
+                <input type="text" id="newTitle" placeholder="Tittle"></input>
+                <button class="but" id="setTitle" type="button"> <i class="fas fa-check"></i></button>
+            </div>
+            <div>
+                <input type="text" id="newValue" placeholder="Default value"></input>
+                <button class="but" id="setValue" type="button"> <i class="fas fa-check"></i></button>
+            </div>
+            <div>
+                <input type="text" id="newMaxVal" placeholder="Max value"></input>
+                <button class="but" id="setMaxVal" type="button"> <i class="fas fa-check"></i></button>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Developed by <a href="http://martinledrut.fr" target="_blank">Martin Ledrut</a></p>
+            <a href="http://martinledrut.fr" target="_blank">Open source <i class="fab fa-github"></i></a>
+        </footer>
+    </body>
+</html>
