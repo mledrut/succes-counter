@@ -27,4 +27,33 @@ $(document).ready(function(){
         $("#valueText").text(liveValue);
     });
 
+// COLOR
+    $("#colorList").hide();
+
+    $("#changeColorBut").click(function(){
+        $("#colorList").toggle();
+    });
+
+    $("#colorRed").click(function(){
+        $("#show").css("background-color", "red");
+      });
+
+    $("#colorGreen").click(function(){
+        $("#show").css("background-color", "green");
+    });
+
+    $("#colorBlue").click(function(){
+        $("#show").css("background-color", "blue");
+    });
+
+    $("#colorBlack").click(function(){
+        $("#show").css("background-color", "black");
+    });
+
+    $("#colorWhite").click(function(){
+        $("#show").css("background-color", "white");
+    });
+
+
+
   });

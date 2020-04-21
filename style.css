@@ -21,7 +21,7 @@
 {
     margin: 30px 30px;
     width: 400px;
-    height: 250px;
+    height: 400px;
 }
 
 h1
@@ -95,7 +95,10 @@ footer
     font-size: 14px;
     width: 450px;
     text-align: center;
-    margin-top: 20px;
+    position: absolute;
+    margin-bottom: 20px;
+    bottom: 0;
+    
 }
 
 a:link {
@@ -107,4 +110,55 @@ a:visited {
   }
   a:hover {
     color: var(--main-color); 
-  }
+}
+
+#changeColor .but
+{
+    width: 390px;
+}
+
+.colorBut
+{
+    float: left;
+    position: relative;
+    margin: 0 8px 8px 0;
+    height: 50px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.2s;
+}
+
+#colorList
+{
+    list-style-type: none;
+    float: left;
+    width: 390px;
+}
+#colorList div
+{
+    margin-left: 50px;
+}
+
+#colorRed
+{
+    background-color: red;
+}
+#colorGreen
+{
+    background-color: green;
+}
+#colorBlue
+{
+    background-color: blue;
+}
+#colorBlack
+{
+    background-color: black;
+}
+#colorWhite
+{
+    border: 2px solid gray;
+    background-color: white;
+}
