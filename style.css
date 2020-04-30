@@ -15,6 +15,7 @@
     background-color:blue;
     width: 420px;
     height: 120px;
+    cursor: none;
 }
 
 #param
@@ -31,7 +32,7 @@ h1
     text-transform: uppercase;
     color: white;
     -webkit-text-stroke: 3px black;
-
+    
 }
 h2
 {

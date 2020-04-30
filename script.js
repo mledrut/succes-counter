@@ -12,8 +12,11 @@ $(document).ready(function(){
     liveValue = "0";
 
     $("#minus").click(function(){
-        liveValue --;
+        if (liveValue > 0){
+            liveValue --;
         $("#valueText").text(liveValue);
+        }
+        
     });
 
     $("#plus").click(function(){
