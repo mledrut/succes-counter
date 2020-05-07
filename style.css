@@ -1,8 +1,3 @@
-:root
-{
-    --main-color: rgb(86, 88, 245);
-}
-
 *
 {
     margin:0;
@@ -13,16 +8,16 @@
 {
     padding: 30px 0px 120px 30px;
     background-color:blue;
-    width: 420px;
-    height: 120px;
+    width: 450px;
+    height: 300px;
     cursor: none;
 }
 
 #param
 {
     margin: 30px 30px;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 800px;
 }
 
 h1
@@ -32,6 +27,7 @@ h1
     text-transform: uppercase;
     color: white;
     -webkit-text-stroke: 3px black;
+    font-weight: 700;
     
 }
 h2
@@ -42,51 +38,36 @@ h2
     margin-right: 10px;
     color: white;
     -webkit-text-stroke: 3px black;
+    font-weight: 700;
 }
 
 
 input[type=text]
 {
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
     float: left;
     width: 330px;
-    height: 50px;
-    padding: 0px 16px;
+    height: 40px;
     margin: 0 8px 8px 0;
-    box-sizing: border-box;
-    border-radius: 12px;
-    border: 2px solid var(--main-color);
-    color: rgb(119, 109, 248);
 }
 
-.but
+#minus, #plus, #setTitle, #setValue, #setMaxVal
 {
-    float: left;
     position: relative;
     margin: 0 8px 8px 0;
-    font-family: 'RSubik', sans-serif;
-    font-size: 20px;
-    height: 50px;
+    height: 40px;
     width: 50px;
-    background-color: var(--main-color);
-    border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 12px;
-    transition-duration: 0.2s;
-}    
+}  
 
-.but:hover
+#first #minus, #first #plus
 {
-    border : 4px solid var(--main-color);
-    color: var(--main-color);
-    background-color: white;
+    width: 188px;
 }
 
-#first .but
-{
+#bgColor{
     width: 190px;
+    float: left;
+    margin-right: 8px;
 }
 
 footer
@@ -118,12 +99,12 @@ a:visited {
     color: var(--main-color); 
 }
 
-#changeColor .but
+/* #changeColor #changeColorBut
 {
     width: 390px;
-}
+} */
 
-.colorBut
+/* .colorBut
 {
     float: left;
     position: relative;
@@ -167,4 +148,4 @@ a:visited {
 {
     border: 2px solid gray;
     background-color: white;
-}
+} */
